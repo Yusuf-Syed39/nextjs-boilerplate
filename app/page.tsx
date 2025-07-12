@@ -10,6 +10,17 @@ export default function Home() {
           </p>
         </header>
 
+        {/* About Me Section */}
+        <section>
+          <h2 className="text-2xl font-semibold mb-4">About Me</h2>
+          <p className="text-lg text-gray-700">
+            I'm a high school student at Morris Hills in New Jersey with a passion for mechanical engineering,
+            hands-on builds, and research. Outside the classroom, I wrestle competitively, teach Tae Kwon Do, and
+            lead my school's CyberPatriot team in national cybersecurity competitions.
+            I’m always looking for ways to merge technical curiosity with real-world impact.
+          </p>
+        </section>
+
         {/* Research Project Section */}
         <section>
           <h2 className="text-2xl font-semibold mb-4">Edge Device AI Testing</h2>
