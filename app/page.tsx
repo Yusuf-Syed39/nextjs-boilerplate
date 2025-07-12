@@ -1,11 +1,26 @@
+import Image from "next/image";
+
 export default function Home() {
   return (
     <div className="min-h-screen bg-black text-black dark:text-black flex items-center justify-center px-4 py-12">
       <main className="bg-white dark:bg-white rounded-2xl shadow-xl max-w-2xl w-full p-8 sm:p-12 space-y-12">
+        
+        {/* Profile Picture */}
+        <div className="flex justify-center">
+          <Image
+            src="/Yusuf.PNG" // Make sure this image is in your public/ directory
+            alt="Yusuf Syed"
+            width={200}
+            height={120}
+            className="rounded-full shadow-md object-cover"
+            priority
+          />
+        </div>
+
         {/* Intro Section */}
         <header>
-          <h1 className="text-5xl font-bold mb-4 tracking-tight">Yusuf Syed</h1>
-          <p className="text-xl text-gray-600">
+          <h1 className="text-5xl font-bold mb-4 tracking-tight text-center sm:text-left">Yusuf Syed</h1>
+          <p className="text-xl text-gray-600 text-center sm:text-left">
             Engineering student. Builder. Researcher.
           </p>
         </header>
@@ -41,7 +56,7 @@ export default function Home() {
         </section>
 
         {/* Footer */}
-        <footer className="text-sm text-gray-500">
+        <footer className="text-sm text-gray-500 text-center">
           © {new Date().getFullYear()} Yusuf Syed ·{" "}
           <a
             href="https://github.com/Yusuf-Syed39"
