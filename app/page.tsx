@@ -42,10 +42,11 @@ export default function Home() {
           <h2 className="text-2xl font-semibold mb-4">Edge Device AI Testing</h2>
           <p className="text-lg text-gray-700 mb-6">
   During my research internship with Professor <a href="https://www.clarkson.edu/people/faraz-hussain" target="_blank" rel="noopener noreferrer" className="underline hover:text-blue-600">Faraz Hussain</a> at Clarkson University,
-  I investigated how various edge devices like Raspberry Pi, Jetson Nano, and Intel NUC perform
-  under AI model workloads. I developed a comprehensive benchmarking suite to measure
-  inference speed, memory usage, and thermal behavior across multiple devices using TensorFlow and PyTorch.
+  I investigated how various edge devices like Raspberry Pi, Jetson Nano, and Intel NUC perform under AI model workloads.
+  I developed a comprehensive benchmarking suite to measure inference speed, memory usage, and thermal behavior across multiple devices
+  using Python-based tools and machine learning models.
 </p>
+
 
           <a
             href="https://github.com/Yusuf-Syed39/Edge-Device-AI-Testing"
