@@ -8,13 +8,14 @@ export default function Home() {
         {/* Profile Picture */}
         <div className="flex justify-center">
           <Image
-            src="/Yusuf.PNG" // Make sure this image is in your public/ directory
-            alt="Yusuf Syed"
-            width={200}
-            height={120}
-            className="rounded-full shadow-md object-cover"
-            priority
-          />
+  src="/Yusuf.PNG"
+  alt="Yusuf Syed"
+  width={1000}
+  height={400}
+  className="w-full h-64 object-cover rounded-t-2xl"
+  priority
+/>
+
         </div>
 
         {/* Intro Section */}
@@ -40,11 +41,12 @@ export default function Home() {
         <section>
           <h2 className="text-2xl font-semibold mb-4">Edge Device AI Testing</h2>
           <p className="text-lg text-gray-700 mb-6">
-            During my research internship with Professor Faraz Hussain at Clarkson University,
-            I investigated how various edge devices like Raspberry Pi, Jetson Nano, and Intel NUC perform
-            under AI model workloads. I developed a comprehensive benchmarking suite to measure
-            inference speed, memory usage, and thermal behavior across multiple devices using TensorFlow and PyTorch.
-          </p>
+  During my research internship with Professor <a href="https://www.clarkson.edu/people/faraz-hussain" target="_blank" rel="noopener noreferrer" className="underline hover:text-blue-600">Faraz Hussain</a> at Clarkson University,
+  I investigated how various edge devices like Raspberry Pi, Jetson Nano, and Intel NUC perform
+  under AI model workloads. I developed a comprehensive benchmarking suite to measure
+  inference speed, memory usage, and thermal behavior across multiple devices using TensorFlow and PyTorch.
+</p>
+
           <a
             href="https://github.com/Yusuf-Syed39/Edge-Device-AI-Testing"
             target="_blank"
